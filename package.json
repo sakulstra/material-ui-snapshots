@@ -1,0 +1,31 @@
+{
+  "name": "storyshots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest-cli": "^21.2.1",
+    "material-ui": "^1.0.0-beta.17",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-links": "^3.2.12",
+    "@storybook/addon-storyshots": "^3.2.12",
+    "@storybook/addons": "^3.2.12",
+    "@storybook/channels": "^3.2.12",
+    "@storybook/react": "^3.2.12",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "react-test-renderer": "^15.6.2"
+  }
+}
